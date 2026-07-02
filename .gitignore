@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+backtest_outputs/
+*.pkl
+*.parquet
+.env
+*.log
+.ipynb_checkpoints/

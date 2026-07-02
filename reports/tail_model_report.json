@@ -1,0 +1,87 @@
+{
+  "generated_at": "2026-07-02T05:14:31.730849+00:00",
+  "tail_q": 0.2,
+  "n_common_days": 394,
+  "tail_model": {
+    "name": "tail_3class",
+    "n_days": 394,
+    "cs_ic": 0.0105,
+    "cs_ic_t_nw": 1.07,
+    "ls_spread": {
+      "k5": {
+        "daily_mean_pct": 0.3017,
+        "sharpe": 1.66,
+        "t_nw": 2.11
+      },
+      "k25": {
+        "daily_mean_pct": 0.172,
+        "sharpe": 1.24,
+        "t_nw": 1.75
+      },
+      "k50": {
+        "daily_mean_pct": 0.1201,
+        "sharpe": 1.04,
+        "t_nw": 1.54
+      }
+    },
+    "long_k25_5d": {
+      "daily_turnover": 0.1279,
+      "cost10bps": {
+        "ann_excess_pct": 22.2,
+        "sharpe": 0.94,
+        "t_nw": 1.39
+      },
+      "cost20bps": {
+        "ann_excess_pct": 15.7,
+        "sharpe": 0.67,
+        "t_nw": 0.99
+      },
+      "cost30bps": {
+        "ann_excess_pct": 9.3,
+        "sharpe": 0.39,
+        "t_nw": 0.58
+      }
+    }
+  },
+  "baseline_regression": {
+    "name": "regression_ensemble",
+    "n_days": 394,
+    "cs_ic": 0.009,
+    "cs_ic_t_nw": 1.01,
+    "ls_spread": {
+      "k5": {
+        "daily_mean_pct": 0.4127,
+        "sharpe": 1.98,
+        "t_nw": 2.69
+      },
+      "k25": {
+        "daily_mean_pct": 0.1903,
+        "sharpe": 1.41,
+        "t_nw": 2.14
+      },
+      "k50": {
+        "daily_mean_pct": 0.137,
+        "sharpe": 1.32,
+        "t_nw": 2.05
+      }
+    },
+    "long_k25_5d": {
+      "daily_turnover": 0.0897,
+      "cost10bps": {
+        "ann_excess_pct": 48.3,
+        "sharpe": 1.7,
+        "t_nw": 2.5
+      },
+      "cost20bps": {
+        "ann_excess_pct": 43.8,
+        "sharpe": 1.54,
+        "t_nw": 2.26
+      },
+      "cost30bps": {
+        "ann_excess_pct": 39.3,
+        "sharpe": 1.38,
+        "t_nw": 2.03
+      }
+    }
+  }
+}
